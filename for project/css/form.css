@@ -1,0 +1,551 @@
+* {
+    font-family: sans-serif
+}
+
+body {
+    background-color: #dffafa;
+}
+
+.mainContainer {
+    margin: 0 auto;
+    width: 800px;
+    height: 3110px;
+    background-color: #fff;
+    margin-top: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mainContainer h1 {
+    font-family: Inter, sans-serif ;
+    color: #2C3345;
+    padding: 50px 0 0 70px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+.mainContainer p {
+    padding: 8px 0 0 70px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.hr {
+    margin-top: 50px;
+}
+
+
+
+.Form_required {
+    color: red;
+}
+
+.information:focus {
+    background-color: aquamarine;
+}
+.information input {
+    width: 160px;
+    height: 30px;
+    padding: 2px;
+    margin: 0 auto;
+    border-radius: 2%;
+    border: 1px solid black;
+    opacity: 0.5;
+}
+
+.information label {
+    font-family: sans-serif;
+    position: relative;
+    top: 43px;
+    left: 70px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.sizeInformation {
+    margin-top: 62px;
+    width: 820px;
+}
+.sizeInformation label {
+    font-size: 13px;
+    opacity: 0.8;
+}
+.sizeInformation input[type=text] {
+    width: 325px; 
+    height: 38px;    
+    border-radius: 3%;  
+    border: 1px solid #000;
+    margin-left: 20px;
+    opacity: 0.5;
+}
+.sizeInformationForm {
+    margin-left: -40px !important;
+}
+
+.sizeInformation label{
+    font-family: sans-serif;
+    position: relative;
+    top: 43px;
+    left: 65px;
+}
+
+
+.sizeInformation .wght {
+    position: relative;
+    left: 10px;
+}
+.sizeInformation input::placeholder {
+    padding-left: 10px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.birthDate {
+    margin-top: 80px;
+}
+
+.birthDate p {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.SelectorMonth {
+    font-family: sans-serif;
+    position: relative;
+    top: 43px;
+    left: 70px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+
+.selector, .dateOption, .yearOption {
+    width: 190px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #b4b4b4;
+    margin-left: 20px;
+}
+
+.dateDrop, .yeardropDown {
+    font-family: sans-serif;
+    position: relative;
+    top: 43px;
+    left: 70px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.FamilyStatus {
+    width: 700px;
+    margin-top: 80px;
+}
+
+.dvrs {
+    position: relative;
+    top: -2px;
+    left: 100px;
+    font-family: sans-serif;
+}   
+
+.mr {
+    position: relative;
+    left: 100px;
+    font-family: sans-serif;
+}
+
+.mrd {
+    margin-left: 13px;
+}
+.sng {
+    margin-left: 22px;
+}
+
+.othr {
+    position: relative;
+    left: 100px;
+    font-family: sans-serif;
+}
+
+.other {
+    margin-left: 26px;
+}
+
+.current {
+    position: relative;
+    top: 60px;
+    left: 70px;
+}
+.Adress {
+    font-family: sans-serif;
+    font-size: 20px; 
+}
+
+.adress {
+    position: relative;
+    top: 12px;
+    width: 600px;
+    height: 30px;
+    border: 1px solid #b3b3b3;
+}
+
+.insideStree {
+    position: absolute;
+    top: 85px;
+    left: -1px;
+    font-size: 14px; 
+    color:#767676;
+}
+
+.Adress2 {
+    position: absolute;
+    top: 150px;
+    left: -1px;
+    font-size: 14px; 
+    color:#767676;
+}
+
+.City {
+    position: relative;
+    top: 80px;
+    font-size: 14px; 
+    color:#767676;
+}
+
+.city {
+    margin-top: 20px;
+    width: 280px;
+    height: 30px;
+} 
+
+.State {
+    position: relative;
+    top: -10px; 
+    left: 325px;
+    font-size: 14px; 
+    color:#767676;
+}
+
+.state {
+    position: absolute;
+    left: 320px;
+    top: 185px;
+    width: 280px; 
+    height: 30px;
+}
+
+.Zip {
+    position: absolute;
+    top: 300px;
+    left: -1px;
+    font-size: 14px; 
+    color:#767676;
+}
+
+.zip {
+    position: relative;
+    top: -55px;
+    width: 600px;
+    height: 30px;
+    border: 1px solid #b3b3b3;
+}
+
+.Gmail {
+    font-family: sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    margin-left: 1px;
+}
+
+.gmail {
+    position: relative;
+    top: 7px;
+    width: 280px;
+    height: 34px;   
+    color: #767676;
+}
+
+.gmail::placeholder {
+    padding-left: 10px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.spanEmail {
+    position: absolute;
+    left: 0px;
+    top: 420px;
+    font-size: 12px;
+    color: #767676;
+}
+
+.Number {
+    position: relative;
+    left: 45px;
+    top: -40px;
+    font-family: sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+}
+
+.areaNumber {
+    position: relative;
+    left: 335px;
+    top: -33px;
+    width: 86px;
+    height: 34px;
+    color: #767676; 
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.number {
+    width: 140px;
+    position: relative;
+    left: 351px;
+    top: -33px;
+    height: 34px;
+    color: #767676;
+}
+
+.number::placeholder {
+    padding-left: 10px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.areaNumber::placeholder {
+    padding-left: 10px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.aNumber {
+    position: absolute;
+    top: 90px;
+    left: 3px;
+    font-size: 12px;
+    color: #767676;
+}
+
+.Pnumber {
+    position: absolute;
+    top: 90px;
+    left: 115px;
+    width: 100px;
+    font-size: 12px;
+    color: #767676;
+}
+
+.Job {
+    position: relative; 
+    top: -10px;
+    left: 0px;
+    font-family: sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+}
+
+.job {
+    width: 280px;
+    height: 38px;
+}
+
+.Expr {
+    position: relative;
+    bottom: 39px;
+    left: 44px;
+    font-family: sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+}
+
+.expr {
+    position: relative;
+    left: 336px;
+    bottom: 44px;
+    width: 280px;
+    height: 38px;
+}
+
+.hr {
+    width: 666px;
+}
+
+.form-input-14 {
+    position: relative;
+    top: 30px;
+    left: 75px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.form-input-wide {
+    position: relative;
+    top: 50px;
+    left: 75px;
+    width: 280px;
+    height: 44px;
+    font-size: 18px;
+}
+
+.form-input-15 {
+    position: relative;
+    top: -2px;
+    left: 134px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.form-input-wide2 {
+    position: relative;
+    top: 50px;
+    right: 86px;
+    width: 280px;
+    height: 44px;
+    font-size: 18px;
+}
+
+.dateselection {
+    position: relative;
+    top: 99px;
+    left: 76px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.dateSelection {
+    position: relative;
+    top: 158px;
+    right: 96px;
+    width: 280px;
+    height: 44px;
+    font-size: 18px;
+}
+
+.for-computer-skills {
+    position: relative;
+    top: 600px;
+}
+table {
+    position: relative;
+    top: 207px;
+    left: 160px;
+    border-collapse: collapse;
+}
+
+.cmp-skills {
+    position: relative;
+    top: 222px;
+
+}
+
+
+.hidn {
+    width: 50px;
+    border: none;
+}
+th {
+    border: 1px solid black;
+    width: 100px;
+    height: 47px;
+}
+
+.abilty-rating {
+    position: relative;
+    top: 265px;
+}
+
+.Item-span {
+    position: relative;
+    top: 22px;
+    left: 50px;
+}
+.Ranking-gr {
+    margin-left: 75px;
+}
+
+.rating-input {
+    position: relative;
+    left: 75px;
+    padding: 20px;
+}
+
+.rating-input2 {
+    position: relative;
+    left: 85px;
+    padding: 20px;
+}
+.rating-input3 {
+    position: relative;
+    left: 145px;
+    padding: 20px;
+}
+.rating-input4 {
+    position: relative;
+    left: 205px;
+    padding: 20px;
+}
+
+.Item-span1 {
+    position: relative;
+    top: 22px;
+    left: 176px;
+}
+
+
+.browseFiles {
+    position: relative;
+    top: 350px;
+}
+
+.FileDiploma {
+    position: relative;
+    top: 9px;
+    left: 76px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.filediploma {
+    position: relative;
+    top: 30px;
+    left: 80px;
+}
+
+.Resume {
+    position: relative;
+    top: 30px;
+    left: 76px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.resume {
+    position: relative;
+    top: 40px;
+    left: 75px;
+}
+
+.Letter {
+    position: relative;
+    top: 30px;
+    left: 76px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.letter {
+    position: relative;
+    top: 40px;
+    left: 70px;
+}
+
+.BTN {
+    position: relative;
+    top: 85px;
+    left: 266px;
+    width: 199px;
+    height: 65px;
+    background-color: #000;
+    color: #fff; 
+    border-radius: 12px;
+}
